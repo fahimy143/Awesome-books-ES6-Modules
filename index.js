@@ -28,7 +28,6 @@ contacts.addEventListener('click', () => {
   contact.style.display = 'flex';
 });
 
-
 const book = new Books();
 book.showBooks();
 
@@ -45,5 +44,5 @@ booksContainer.addEventListener('click', (e) => {
 // date
 
 window.addEventListener('load', () => {
-    Timing();
-  });
+  Timing();
+});
